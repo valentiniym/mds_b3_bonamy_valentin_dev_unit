@@ -1,7 +1,7 @@
 {
   "name": "unit_test",
   "version": "1.0.0",
-  "description": "",
+  "description": "Unit test with Jest",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -14,9 +14,21 @@
   ],
   "author": "MDS",
   "devDependencies": {
-    "jest": "^24.8.0"
+    "jest": "^24.9.0"
   },
   "dependencies": {
     "axios": "^0.19.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valentiniym/mds_b3_bonamy_valentin_dev_unit.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valentiniym/mds_b3_bonamy_valentin_dev_unit/issues"
+  },
+  "homepage": "https://github.com/valentiniym/mds_b3_bonamy_valentin_dev_unit#readme"
 }
