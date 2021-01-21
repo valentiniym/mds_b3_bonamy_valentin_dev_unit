@@ -7,19 +7,19 @@ const isAnagram = require('../src/anagram');
 */
 
 test('isAnagram function exists', () => {
-  // Complete here
+  expect(isAnagram).toBeDefined();
 });
 
 test('"cinema" is an anagram of "iceman"', () => {
-  // Complete here
+  expect(isAnagram('cinema','iceman')).toBe(true);
 });
 
 test('"Dormitory" is an anagram of "dirty room##"', () => {
-  // Complete here
+  expect(isAnagram('Dormitory','dirty room##')).toBe(true)
 });
 
 test('"Hello" is NOT an anagram of "Aloha"', () => {
-  // Complete here
+  expect(isAnagram('Hello','Aloha')).toBe(false)
 });
 
 /*
